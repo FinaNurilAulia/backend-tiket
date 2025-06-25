@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url)
     const db = env.DB
 
-    // --- Handle CORS preflight (OPTIONS) ---
+    // --- Handle CORS preflight (OPTIONS). ---
     if (request.method === "OPTIONS") {
       return new Response(null, {
         status: 204,
