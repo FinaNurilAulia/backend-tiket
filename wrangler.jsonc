@@ -15,7 +15,7 @@
       "database_name": "konser_db",
       "database_id": "432c0996-4a98-40f9-a67f-746b680bf7a1"
     }
-  ]
+  ] //menghubungkan ke cloudflare
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
