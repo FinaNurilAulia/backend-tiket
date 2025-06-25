@@ -15,7 +15,7 @@ export default {
       })
     }
 
-    // --- GET semua tiket ---
+    // --- GET semua tiket. ---
     if (request.method === "GET" && url.pathname === "/tickets") {
       const { results } = await db.prepare("SELECT * FROM tickets").all()
       return new Response(JSON.stringify(results), {
